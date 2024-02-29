@@ -16,3 +16,6 @@ Hypervisor is the software that create and runs the vitualization , it's allowed
 
 ## `Debian`
 Debian stands as a freely available, community-powered Linux distribution renowned for its extensive assortment of software packages. It serves as a steadfast and dependable platform suitable for diverse applications, encompassing both server environments and desktop usage.
+
+### apt
+apt (advanced packaging tool) : is a package management system for installing, updating, removing software packages in debian-based linux distribution.
