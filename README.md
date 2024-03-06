@@ -17,11 +17,12 @@ Hypervisor is the software that create and runs the vitualization , it's allowed
 ## `Debian`
 Debian stands as a freely available, community-powered Linux distribution renowned for its extensive assortment of software packages. It serves as a steadfast and dependable platform suitable for diverse applications, encompassing both server environments and desktop usage.
 
-### apt
-apt (advanced packaging tool) : is a package management system for installing, updating, removing software packages in debian-based linux distribution.
+### APT
+APT (advanced packaging tool) : is a package management system for installing, updating, removing software packages in debian-based linux distribution.
 
-### aptitude
-aptitude : is a front-end of the package management system it's provides more features of `apt`
+### Aptitude
+Aptitude : is a front-end of the package management system it's provides more features of `apt`
 
 ### `The Difference`
-Both apt and aptitude are a package management systems , aptitude has a user interface to interact with the functionality
+* APT: Simpler , lower-level tool best for basic package management. Offers only command-line interface.
+* Aptitude: More powerful, higher-level tool with advanced features like dependency resolution and simulation. Offers both CLI and text-based user interface for easier navigation.
