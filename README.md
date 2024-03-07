@@ -43,5 +43,5 @@ LVM (Logical Volume Management) : it's a devive mapper framework in the linux ke
 * **Logical Volumes (LV)** : These are the virtual partitions created from the storage space within a VG. They appear and function like traditional partitions but offer greater flexibility.
 
 <p align="center">
-<img src="https://www.sysonion.de/wp-content/uploads/2019/01/LVM-Schaubild.jpg" width="500px" height="500px" />
+<img src="https://access.redhat.com/webassets/avalon/d/Red_Hat_Enterprise_Linux-9-Configuring_and_managing_logical_volumes-en-US/images/31bd96635c4120abe3e771a423f61cd6/basic-lvm-volume-components.png" width="500px" height="500px" />
 </p>
