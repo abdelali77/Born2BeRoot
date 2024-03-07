@@ -6,6 +6,15 @@
 
 Hypervisor is the software that create and runs the vitualization , it's allowed one machine to run multiple machines in a virtual way , it's allocate and sharing the resources such as storage space and RAM and cpu between the actual physical machine and the virtual machine
 
+_**The purpose of virtual machines**_
+* Running multiple operating systems
+* Software development and testing
+* Learning and experimentation
+* Server consolidation
+* Disaster recovery and backup
+* Security
+* Scalability
+
 ## types of Hypervisors
 * *type 1 (`bare-metal`)* : installed on bare matal hardware means that there is no existing operating system or any other software .
 * *type 2 (`hosted hypervisor`)* : is installed and runs on top of an existing operating system , so the operating system sits between the hardware resources and the hypervisor
