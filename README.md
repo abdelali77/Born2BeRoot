@@ -35,3 +35,13 @@ Aptitude : is a front-end of the package management system it's provides more fe
 ### `The Difference`
 * APT: Simpler , lower-level tool best for basic package management. Offers only command-line interface.
 * Aptitude: More powerful, higher-level tool with advanced features like dependency resolution and simulation. Offers both CLI and text-based user interface for easier navigation.
+
+## LVM
+LVM (Logical Volume Management) : it's a devive mapper framework in the linux kernel that provides a more flexible and powerful way to manage storage space compared to traditional partitionig schemes.
+* **Physical Volumes (PV)** : These are the physical storage devices that make up the LVM pool, such as hard disk drives or solid-state drives.
+* **Volume Groups (VG)** : is a logical grouping of one or more PVs. It acts as a pool of storage from which logical volumes are carved out.
+* **Logical Volumes (LV)** : These are the virtual partitions created from the storage space within a VG. They appear and function like traditional partitions but offer greater flexibility.
+
+<p align="center">
+<img src="https://www.sysonion.de/wp-content/uploads/2019/01/LVM-Schaubild.jpg" width="500px" height="500px" />
+</p>
