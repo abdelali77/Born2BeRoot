@@ -45,3 +45,15 @@ LVM (Logical Volume Management) : it's a devive mapper framework in the linux ke
 <p align="center">
 <img src="https://access.redhat.com/webassets/avalon/d/Red_Hat_Enterprise_Linux-9-Configuring_and_managing_logical_volumes-en-US/images/31bd96635c4120abe3e771a423f61cd6/basic-lvm-volume-components.png" width="500px" height="500px" />
 </p>
+
+## SUDO 💪🏻
+Sudo : or (super user do) is a program in Unix-like operating systems that allows users to run commands with the privileges of another user, typically the superuser (also known as `root`), root is the super account in Linux it is a user account for administrative purposes, and typically has the highest access rights on the system.
+
+/ Logging as root is generally discouraged for everyday tasks as it grant unrestricted access to the system. Sudo provide a more secure approach by allowing specific commands to run with elevated privileges while maintaining a record of who ran them (through logs).
+
+## UFW
+**Firewall** : is a network security system that acts as a guardian between your computer or network and the outside world, typically the internet. It monitors incoming and outgoing traffic and decides whether to allow or block it based on a set of rules.
+
+So `ufw` (Uncomplicated Firewall) it's a user-friendly program specifically designed to manage firewall rules.
+
+## SSH
