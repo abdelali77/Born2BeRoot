@@ -1,6 +1,6 @@
 # What is virtualization
 
-#### Virtualization is the process of simulating hardware and software , such as a computers or operating systems. It's running a multiple virtual computers in one physical computer.
+#### Virtualization is the process of simulating hardware and software, such as a computers or operating systems. It's running a multiple virtual computers in one physical computer.
 
 ## Hypervisor
 
@@ -71,3 +71,11 @@ SSH, or (Secure Shell) is a protocol that allows for secure remote access to ano
 <p align="center">
 <img src="https://assets-global.website-files.com/5ff66329429d880392f6cba2/61c1b963247368113bbeef17_Secure%20Shell%20work.png" width="600px" height="500px" />
 </p>
+
+## Resources
+- [How to set up your machine 🤖](https://web.archive.org/web/20220508112038/https://www.codequoi.com/en/born2beroot-01-creating-a-debian-virtual-machine/)
+- [What is virtualization ?](https://www.ibm.com/topics/virtualization)
+- [Apt and Aptitude](https://www.tecmint.com/difference-between-apt-and-aptitude/)
+- [LVM](https://wiki.archlinux.org/title/LVM)
+- [SUDO](https://www.techtarget.com/searchsecurity/definition/sudo-superuser-do)
+- [What is the Secure Shell (SSH) protocol ?](https://www.cloudflare.com/learning/access-management/what-is-ssh/#:~:text=The%20Secure%20Shell%20(SSH)%20protocol%20is%20a%20method%20for%20securely,and%20encrypt%20connections%20between%20devices.)
