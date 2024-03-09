@@ -36,6 +36,9 @@ Aptitude : is a front-end of the package management system it's provides more fe
 * APT: Simpler , lower-level tool best for basic package management. Offers only command-line interface.
 * Aptitude: More powerful, higher-level tool with advanced features like dependency resolution and simulation. Offers both CLI and text-based user interface for easier navigation.
 
+### AppArmor
+AppArmor is a Linux kernel security module that implements mandatory access control. It acts as a security layer by restricting programs capabilities through per-program profiles. These profiles define what files and resources an application can access and what actions it can perform.
+
 ## LVM
 LVM (Logical Volume Management) : it's a devive mapper framework in the linux kernel that provides a more flexible and powerful way to manage storage space compared to traditional partitionig schemes.
 * **Physical Volumes (PV)** : These are the physical storage devices that make up the LVM pool, such as hard disk drives or solid-state drives.
