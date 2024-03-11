@@ -11,7 +11,7 @@ wall "
       #CPU load: $(mpstat | grep "all" | awk '{print 100-$13"%"}')
       #Last boot: $(who -b | awk '{print $3" "$4}')
       #LVM use: $(if [ $(lsblk | grep "lvm" | wc -l) -eq 0 ]; then echo "no"; else echo "yes"; fi)
-      #Connections TCP : $(ss -s | grep "TCP:" | awk '{print $4}' | tr -d ',') ESTABLISHED
+      #Connections TCP : $(ss -t | grep "ESTAB" | wc -l) ESTABLISHED
       #User log: $(who | awk '{print $1}' | sort -u | wc -l)
       #Network: IP $(hostname -I)$(ip link | grep "ether" | awk '{print "("$2")"}')
       #Sudo : $(ls /var/log/sudo/00/00 | wc -w) cmd
