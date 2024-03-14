@@ -10,7 +10,7 @@ wall "
       #Disk Usage: $(df -h --total | grep "total" | awk '{print $3*1000"/"}' | tr -d 'G')$mem $memPer
       #CPU load: $(mpstat | grep "all" | awk '{print 100-$13"%"}')
       #Last boot: $(who -b | awk '{print $3" "$4}')
-      #LVM use: $(if [ $(lsblk | grep "lvm" | wc -l) -eq 0 ]; then echo "no"; else echo "yes"; fi)
+      #LVM use: $(if [ $(lsblk -o TYPE | grep "lvm" | wc -l) == 0 ]; then echo "no"; else echo "yes"; fi)
       #Connections TCP : $(ss -t | grep "ESTAB" | wc -l) ESTABLISHED
       #User log: $(who | awk '{print $1}' | sort -u | wc -l)
       #Network: IP $(hostname -I)$(ip link | grep "ether" | awk '{print "("$2")"}')
